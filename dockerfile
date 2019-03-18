@@ -13,4 +13,4 @@ RUN echo "/sbin/service jenkins start" >> .bashrc
 CMD start jenkins
 CMD service start jenkins 
 RUN /etc/init.d/jenkins start
-RUN echo "OK Added"
+RUN echo "OK Added Ok"
