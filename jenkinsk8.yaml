@@ -1,0 +1,12 @@
+#This is sample Pod for the jenkins image 
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: jenkinspod 
+  namespace: jenkinnamespace
+spec:
+ containers:
+  - name: jenkinspod
+    image: jenkins:v4
+
