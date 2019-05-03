@@ -1,0 +1,13 @@
+#This is demo Pod for JenkinsImage 
+#IronMan live longer
+
+
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: ironmanpod
+  namespace: captainamerica
+spec:
+  containers:
+    - name: ironmanpod
+      image: jenkins:v7
