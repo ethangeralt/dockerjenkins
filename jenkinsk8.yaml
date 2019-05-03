@@ -1,0 +1,11 @@
+#THis is Pod file for the JenkinsDocker Image
+
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ironmanjenkins
+  namespace: ironman
+spec: 
+  - name: ironmanjenkins
+    image: jenkins:v6
