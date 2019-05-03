@@ -6,7 +6,7 @@ apiVersion: v1
 kind: Pod
 metadata: 
   name: ironmanpod
-  namespace: captain
+  namespace: nebula
 spec:
   containers:
     - name: ironmanpod
