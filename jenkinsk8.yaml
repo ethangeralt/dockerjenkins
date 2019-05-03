@@ -6,8 +6,8 @@ apiVersion: v1
 kind: Pod
 metadata: 
   name: ironmanpod
-  namespace: nebula
+  namespace: test
 spec:
   containers:
-    - name: ironmanpod
+    - name: ironman
       image: jenkins:v7
