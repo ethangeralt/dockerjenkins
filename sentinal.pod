@@ -1,0 +1,12 @@
+#This is demo pod for the Jenkins image 
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: sentinalpod
+  namespace: sentinal
+spec: 
+  containers:
+    - name: sentinalpod
+      image: sentinal:v1
+
